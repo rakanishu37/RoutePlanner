@@ -389,7 +389,7 @@ jQuery(function() {
       <input id='bicycling' type='checkbox'/> En Bicicleta <span class='slowWarn red'></span><br>
       <input id='avoidHighways' type='checkbox'/> Evitar carreteras <span class='slowWarn red'></span><br>
       <input id='avoidTolls' type='checkbox'/> Evitar peajes <span class='slowWarn red'></span><br>
-      <input id='metricUnits' type='checkbox'/> Unidad Metrica (km)
+      <!-- <input id='metricUnits' type='checkbox'/> Unidad Metrica (km) -->
     </form>
   </p>
   <p>
