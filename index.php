@@ -408,7 +408,7 @@ jQuery(function() {
 
 <!-- Non-blocking scripts -->
 <script async defer
-    src="https://maps.googleapis.com/maps/api/js?v=weekly&key=AIzaSyCRgK3LhRQrlxsm1xrPNwdtW-akcbhps08&callback=onBodyLoad&es">
+    src="https://maps.googleapis.com/maps/api/js?v=weekly&key=AIzaSyCRgK3LhRQrlxsm1xrPNwdtW-akcbhps08&callback=onBodyLoad&lang=es">
 </script>
 
 <script src="jquery-ui-1.12.0.custom/jquery-ui.min.js"></script>
