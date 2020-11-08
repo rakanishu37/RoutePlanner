@@ -393,8 +393,8 @@ jQuery(function() {
     </form>
   </p>
   <p>
-    <input class="calcButton" type="button" value="Calcular Agente Viajero" onClick="directions(0, document.forms['travelOpts'].walking.checked, document.forms['travelOpts'].bicycling.checked, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, true)"/>
-    <input class="calcButton" type="button" value="Calcular Camino Economico" onClick="directions(1, document.forms['travelOpts'].walking.checked, document.forms['travelOpts'].bicycling.checked, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, true)"/>
+    <input class="calcButton" type="button" value="Calcular Agente Viajero" onClick="directions(0, false, false, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, true)"/>
+    <input class="calcButton" type="button" value="Calcular Camino Economico" onClick="directions(1, false , false, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, true)"/>
     <!-- <input class="calcButton" type="button" value="Calculate In Order" onClick="orderedDirections(document.forms['travelOpts'].walking.checked, document.forms['travelOpts'].bicycling.checked, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, document.forms['travelOpts'].metricUnits.checked)"/> -->
   </p>
 </div>
