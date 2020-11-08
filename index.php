@@ -385,8 +385,8 @@ jQuery(function() {
 <div id='dialogOptions' title='Opciones del camino'>
   <p>
     <form name="travelOpts">
-      <input id='walking' type='checkbox'/> Caminando <span class='slowWarn red'></span><br>
-      <input id='bicycling' type='checkbox'/> En Bicicleta <span class='slowWarn red'></span><br>
+      <!-- <input id='walking' type='checkbox'/> Caminando <span class='slowWarn red'></span><br> -->
+      <!-- <input id='bicycling' type='checkbox'/> En Bicicleta <span class='slowWarn red'></span><br> -->
       <input id='avoidHighways' type='checkbox'/> Evitar carreteras <span class='slowWarn red'></span><br>
       <input id='avoidTolls' type='checkbox'/> Evitar peajes <span class='slowWarn red'></span><br>
       <!-- <input id='metricUnits' type='checkbox'/> Unidad Metrica (km) -->
